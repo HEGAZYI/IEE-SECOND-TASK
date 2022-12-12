@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #efefef99;
+}
+div{
+    left: 170px;
+    top: 250px;
+    float: left;
+    position: relative;
+
+ 
+}
+h1{
+   margin: 0px;
+   font-size: 80px;
+   color: rgb(0 0 247 / 71%);
+   
+}
+p{
+  color: #000;
+    line-height: 1.2em;
+    font-size: 20px;
+    margin: 0px;
+   
+}
+form{
+ 
+    right: 330px;
+    top: 190px;
+    float: right;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0px 2px 10px 1px rgb(43 43 43 / 34%);
+    
+}
+#em{
+width: 300px;
+margin: 20px;
+padding: 15px;
+margin-left: 30px;
+border-radius: 5px;
+border: none;
+background-color: aliceblue;
+    position: relative;
+    box-shadow:0px 1px 3px 0px rgb(43 43 43 / 34%);
+}
+#pass{
+width: 300px;
+margin: 10px;
+padding: 15px;
+margin-left: 30px;
+padding-top: 15px;
+border-radius: 5px;
+border: none;
+background-color: aliceblue;
+    position: relative;
+    box-shadow: inset 1px 1px 3px 0px rgb(43 43 43 / 34%);
+  }
+#log{
+    width: 330px;
+height: inherit;
+    margin: 10px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    background-color: rgb(77, 77, 240);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.link{
+    border: none;
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+    color: rgb(0, 179, 255);
+    background-color: #fff;
+    margin-left: 30%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.create{
+    border: none;
+    background-color: rgb(28, 226, 28);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.fin{
+    position: absolute;
+    right: 23%;
+    top: 82%;
+    font-size: medium;
+}
+span{
+    font-weight: bold;
+}
